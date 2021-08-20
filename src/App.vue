@@ -15,12 +15,21 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,800&display=swap');
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  /* background-color: #e7ecef; */
+  /* margin-top: 60px; */
 }
 </style>
